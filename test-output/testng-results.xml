@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21227" started-at="2020-04-23T23:03:30 IST" finished-at="2020-04-23T23:03:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21227" started-at="2020-04-23T23:03:30 IST" finished-at="2020-04-23T23:03:51 IST">
+      <class name="com.google.testcases.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="setUp" is-config="true" duration-ms="10409" started-at="2020-04-23T23:03:30 IST" finished-at="2020-04-23T23:03:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="canTestGooglePageIsOpened()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="canTestGooglePageIsOpened" duration-ms="2735" started-at="2020-04-23T23:03:40 IST" finished-at="2020-04-23T23:03:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canTestGooglePageIsOpened -->
+        <test-method status="PASS" signature="canExtractDoogleTextFromImageLink()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="canExtractDoogleTextFromImageLink" duration-ms="34" started-at="2020-04-23T23:03:43 IST" depends-on-methods="com.google.testcases.GoogleTest.canTestGooglePageIsOpened" finished-at="2020-04-23T23:03:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canExtractDoogleTextFromImageLink -->
+        <test-method status="PASS" signature="canSearchTextInGoogle()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="canSearchTextInGoogle" duration-ms="1835" started-at="2020-04-23T23:03:43 IST" depends-on-methods="com.google.testcases.GoogleTest.canExtractDoogleTextFromImageLink" finished-at="2020-04-23T23:03:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canSearchTextInGoogle -->
+        <test-method status="PASS" signature="canClickOn3rdLink()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="canClickOn3rdLink" duration-ms="5446" started-at="2020-04-23T23:03:45 IST" depends-on-methods="com.google.testcases.GoogleTest.canSearchTextInGoogle" finished-at="2020-04-23T23:03:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canClickOn3rdLink -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.google.testcases.GoogleTest@6737fd8f]" name="close" is-config="true" duration-ms="710" started-at="2020-04-23T23:03:50 IST" finished-at="2020-04-23T23:03:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.google.testcases.GoogleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
